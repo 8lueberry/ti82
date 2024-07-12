@@ -1,0 +1,17 @@
+{
+  "name": "ti82",
+  "version": "1.0.0",
+  "description": "Character maps for ti82",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Dan Le Van",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
