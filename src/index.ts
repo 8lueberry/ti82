@@ -279,7 +279,7 @@ function decimalToCharacter(decimal: CharacterDecimal) {
   return result
 }
 
-export function buildCharacterMap() {
+export function buildCharacterMap(): Record<CharacterIndex, CharacterBinaryPixel> {
   const result = Object.entries(map).reduce<Record<CharacterIndex, CharacterBinaryPixel>>((acc, [k, p]) => {
     acc[k] = decimalToCharacter(p)
     return acc
